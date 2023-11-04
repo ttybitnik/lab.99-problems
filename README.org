@@ -43,12 +43,12 @@ Example:
 X = d
 #+end_example
 
-/S1.01: [[file:elisp/1.01.el][Elisp]]./
+/S1.01: [[file:elisp/1.01.el][Elisp]]/
 
 **** 1.02 (*) Find the last but one element of a list.
 (de: zweitletztes Element, fr: avant-dernier élément)
 
-/S1.02: [[file:elisp/1.02.el][Elisp]]./
+/S1.02: [[file:elisp/1.02.el][Elisp]]/
 
 **** 1.03 (*) Find the K'th element of a list.
 The first element in the list is number 1.
@@ -59,15 +59,15 @@ Example:
 X = c
 #+end_example
 
-/S1.03: [[file:elisp/1.03.el][Elisp]]./
+/S1.03: [[file:elisp/1.03.el][Elisp]]/
 
 **** 1.04 (*) Find the number of elements of a list.
 
-/S1.04: [[file:elisp/1.04.el][Elisp]]./
+/S1.04: [[file:elisp/1.04.el][Elisp]]/
 
 **** 1.05 (*) Reverse a list.
 
-/S1.05: [[file:elisp/1.05.el][Elisp]]./
+/S1.05: [[file:elisp/1.05.el][Elisp]]/
 
 **** 1.06 (*) Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. [x,a,m,a,x].
@@ -1038,7 +1038,7 @@ Hints:
 
 3) For efficiency reasons it is important, at least for larger puzzles, to sort the words and the sites in a particular order. For this part of the problem, the solution of 1.28 may be very helpful.
 
-** Solution status
+** Solution Status
 
 | *P.* | Elisp  | Bash | C | Go | Python | JavaScript |
 |------+--------+------+---+----+--------+------------|
