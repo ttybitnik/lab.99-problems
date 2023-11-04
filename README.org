@@ -67,6 +67,8 @@ X = c
 
 **** 1.05 (*) Reverse a list.
 
+/S1.05: [[file:elisp/1.05.el][Elisp]]./
+
 **** 1.06 (*) Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. [x,a,m,a,x].
 
@@ -1044,7 +1046,7 @@ Hints:
 | 1.02 | /done/ |      |   |    |        |            |
 | 1.03 | /done/ |      |   |    |        |            |
 | 1.04 | /done/ |      |   |    |        |            |
-| 1.05 |        |      |   |    |        |            |
+| 1.05 | /done/ |      |   |    |        |            |
 | 1.06 |        |      |   |    |        |            |
 | 1.07 |        |      |   |    |        |            |
 | 1.08 |        |      |   |    |        |            |
