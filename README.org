@@ -48,6 +48,8 @@ X = d
 **** 1.02 (*) Find the last but one element of a list.
 (de: zweitletztes Element, fr: avant-dernier élément)
 
+/S1.02: [[file:elisp/1.02.el][Elisp]]./
+
 **** 1.03 (*) Find the K'th element of a list.
 The first element in the list is number 1.
 
@@ -1035,7 +1037,7 @@ Hints:
 | *P.* | Elisp  | Bash | C | Go | Python | JavaScript |
 |------+--------+------+---+----+--------+------------|
 | 1.01 | /done/ |      |   |    |        |            |
-| 1.02 |        |      |   |    |        |            |
+| 1.02 | /done/ |      |   |    |        |            |
 | 1.03 |        |      |   |    |        |            |
 | 1.04 |        |      |   |    |        |            |
 | 1.05 |        |      |   |    |        |            |
