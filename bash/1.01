@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+list=("a" "b" "c" "d")
+
+tty_find_last() {
+    list_length=${#list[@]}
+
+    printf "%s\n" "${list[$list_length - 1]}"
+}
+
+tty_find_last
+# => d
