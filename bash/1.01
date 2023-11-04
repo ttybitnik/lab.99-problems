@@ -1,11 +1,16 @@
 #!/usr/bin/env bash
 
-list=("a" "b" "c" "d")
+list=(a b c d)
 
 tty_find_last() {
     list_length=${#list[@]}
 
-    printf "%s\n" "${list[$list_length - 1]}"
+    if [ "$list_length" -eq 0 ]; then
+	printf "The list is empty.\n" >&2
+	exit 1
+    else
+	printf "%s\n" "${list[$list_length - 1]}"
+    fi
 }
 
 tty_find_last
