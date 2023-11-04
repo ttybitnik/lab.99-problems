@@ -72,6 +72,8 @@ X = c
 **** 1.06 (*) Find out whether a list is a palindrome.
 A palindrome can be read forward or backward; e.g. [x,a,m,a,x].
 
+/S1.06: [[file:elisp/1.06.el][Elisp]]/
+
 **** 1.07 (**) Flatten a nested list structure.
 Transform a list, possibly holding lists as elements into a 'flat' list by replacing each list with its elements (recursively).
 
@@ -1047,7 +1049,7 @@ Hints:
 | 1.03 | /done/ |        |   |    |        |            |
 | 1.04 | /done/ |        |   |    |        |            |
 | 1.05 | /done/ |        |   |    |        |            |
-| 1.06 |        |        |   |    |        |            |
+| 1.06 | /done/ |        |   |    |        |            |
 | 1.07 |        |        |   |    |        |            |
 | 1.08 |        |        |   |    |        |            |
 | 1.09 |        |        |   |    |        |            |
