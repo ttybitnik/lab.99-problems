@@ -4,11 +4,10 @@ void tty_find_last(char list[], size_t length)
 {
 	char last = list[length - 1];
 
-	if (last == 0) {
+	if (last == 0)
 		printf("The list is empty.\n");
-	} else {
+	else
 		printf("%c\n", last);
-	}
 }
 
 int main()
