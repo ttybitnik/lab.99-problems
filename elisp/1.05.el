@@ -1,5 +1,5 @@
-(defun tty_reverse (list)
+(defun tty/reverse (list)
   (nreverse list))
 
-(tty_reverse '(a b c d))
+(tty/reverse '(a b c d))
 ;; => (d c b a)

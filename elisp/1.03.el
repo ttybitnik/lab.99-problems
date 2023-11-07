@@ -1,7 +1,7 @@
-(defun tty_find_nth (n list)
+(defun tty/find-nth (n list)
   (if (= n 0)
       nil
     (nth (- n 1) list)))
 
-(tty_find_nth 3 '(a b c))
+(tty/find-nth 3 '(a b c d))
 ;; => c
