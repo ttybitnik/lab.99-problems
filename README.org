@@ -43,7 +43,7 @@ Example:
 X = d
 #+end_example
 
-/S1.01: [[file:elisp/1.01.el][Elisp]], [[file:bash/1.01][Bash]], [[file:c/1.01.c][C]], [[file:go/1.01.go][Go]]/
+/S1.01: [[file:elisp/1.01.el][Elisp]], [[file:bash/1.01][Bash]], [[file:c/1.01.c][C]], [[file:go/1.01.go][Go]], [[file:python/1.01.py][Python]]/
 
 **** 1.02 (*) Find the last but one element of a list.
 (de: zweitletztes Element, fr: avant-dernier élément)
@@ -1044,7 +1044,7 @@ Hints:
 
 | *P.* | Elisp  | Bash   | C      | Go     | Python | JavaScript |
 |------+--------+--------+--------+--------+--------+------------|
-| 1.01 | /done/ | /done/ | /done/ | /done/ |        |            |
+| 1.01 | /done/ | /done/ | /done/ | /done/ | /done/ |            |
 | 1.02 | /done/ |        |        |        |        |            |
 | 1.03 | /done/ |        |        |        |        |            |
 | 1.04 | /done/ |        |        |        |        |            |
