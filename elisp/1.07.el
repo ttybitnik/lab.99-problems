@@ -1,0 +1,13 @@
+(defun tty/flatten (list)
+  (let (flatten)
+    (while (consp list)
+      (let ((item (pop list)))
+        (while (consp item)
+          (push (cdr item) list)
+          (setq item (car item)))
+	(if item (push item flatten))))
+    (if list (push list flatten))
+    (nreverse flatten)))
+
+(tty/flatten '(a (b (c d) e)))
+;; => (a b c d e)

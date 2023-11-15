@@ -85,6 +85,8 @@ X = [a, b, c, d, e]
 
 Hint: Use the predefined predicates is_list/1 and append/3
 
+/S1.07: [[file:elisp/1.07.el][Elisp]]/
+
 **** 1.08 (**) Eliminate consecutive duplicates of list elements.
 If a list contains repeated elements they should be replaced with a single copy of the element. The order of the elements should not be changed.
 
@@ -1050,7 +1052,7 @@ Hints:
 | 1.04 | /done/ |        |        |        |        |            |
 | 1.05 | /done/ |        |        |        |        |            |
 | 1.06 | /done/ |        |        |        |        |            |
-| 1.07 |        |        |        |        |        |            |
+| 1.07 | /done/ |        |        |        |        |            |
 | 1.08 |        |        |        |        |        |            |
 | 1.09 |        |        |        |        |        |            |
 | 1.10 |        |        |        |        |        |            |
