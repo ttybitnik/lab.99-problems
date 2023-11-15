@@ -11,3 +11,14 @@
 
 (tty/flatten '(a (b (c d) e)))
 ;; => (a b c d e)
+
+(defun tty/flatten-rec (list)
+  (if (eql list nil)
+      nil
+    (let ((head (car list)) (rest (cdr list)))
+      (if (listp head)
+	  (append (tty/flatten-rec head) (tty/flatten-rec rest))
+	(append (cons head nil) (tty/flatten-rec rest))))))
+
+(tty/flatten-rec '(a (b (c d) e)))
+;; => (a b c d e)
