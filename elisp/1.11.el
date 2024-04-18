@@ -1,0 +1,18 @@
+(defun tty/runlength-compression-nodup (list)
+  (let (pack)
+    (while (consp list)
+      (let* ((item (pop list))
+	     (nest (list item))
+	     (cntr 1))
+        (while (equal item (car list))
+          (pop list)
+          (setq cntr (+ cntr 1)))
+	(if (> cntr 1)
+	    (progn
+	      (push cntr nest)
+              (push nest pack))
+	  (push item pack))))
+    (nreverse pack)))
+
+(tty/runlength-compression-nodup '(a a a a b c c a a d e e e e)
+;; => ((4 a) b (2 c) (2 a) d (4 e))
