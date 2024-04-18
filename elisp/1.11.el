@@ -14,5 +14,5 @@
 	  (push item pack))))
     (nreverse pack)))
 
-(tty/runlength-compression-nodup '(a a a a b c c a a d e e e e)
+(tty/runlength-compression-nodup '(a a a a b c c a a d e e e e))
 ;; => ((4 a) b (2 c) (2 a) d (4 e))
