@@ -118,6 +118,8 @@ Example:
 X = [[4,a],[1,b],[2,c],[2,a],[1,d],[4,e]]
 #+end_example
 
+/S1.10: [[file:elisp/1.10.el][Elisp]]/
+
 **** 1.11 (*) Modified run-length encoding.
 Modify the result of problem 1.10 in such a way that if an element has no duplicates it is simply copied into the result list. Only elements with duplicates are transferred as [N,E] terms.
 
@@ -1059,7 +1061,7 @@ Hints:
 | 1.07 | /done/ |        |        |        |        |            |        |        |
 | 1.08 | /done/ |        |        |        |        |            |        |        |
 | 1.09 | /done/ |        |        |        |        |            |        |        |
-| 1.10 |        |        |        |        |        |            |        |        |
+| 1.10 | /done/ |        |        |        |        |            |        |        |
 | 1.11 |        |        |        |        |        |            |        |        |
 | 1.12 |        |        |        |        |        |            |        |        |
 | 1.13 |        |        |        |        |        |            |        |        |
