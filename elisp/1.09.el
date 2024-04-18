@@ -1,0 +1,12 @@
+(defun tty/pack (list)
+  (let (pack)
+    (while (consp list)
+      (setq item (pop list))
+      (let ((nest (list item)))
+        (while (equal item (car list))
+          (push (pop list) nest))
+        (push (nreverse nest) pack)))
+    (nreverse pack)))
+
+(tty/pack '(a a a a b c c a a d e e e e))
+;; => ((a a a a) (b) (c c) (a a) (d) (e e e e))
