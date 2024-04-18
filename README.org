@@ -145,6 +145,8 @@ Example:
 X = [[4,a],b,[2,c],[2,a],d,[4,e]]
 #+end_example
 
+/S1.13: [[file:elisp/1.13.el][Elisp]]/
+
 **** 1.14 (*) Duplicate the elements of a list.
 Example:
 #+begin_example
@@ -1068,7 +1070,7 @@ Hints:
 | 1.10 | /done/ |        |        |        |        |            |        |        |
 | 1.11 | /done/ |        |        |        |        |            |        |        |
 | 1.12 | /done/ |        |        |        |        |            |        |        |
-| 1.13 |        |        |        |        |        |            |        |        |
+| 1.13 | /done/ |        |        |        |        |            |        |        |
 | 1.14 |        |        |        |        |        |            |        |        |
 | 1.15 |        |        |        |        |        |            |        |        |
 | 1.16 |        |        |        |        |        |            |        |        |
