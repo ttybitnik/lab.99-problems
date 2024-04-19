@@ -1,0 +1,13 @@
+(defun tty/drop-nth (list n)
+  (let ((drop)
+        (i 0))
+    (while (consp list)
+      (let ((elt (pop list)))
+        (setq i (+ i 1))
+        (if (= i n)
+            (setq i 0)
+          (push elt drop))))
+    (nreverse drop)))
+
+(tty/drop-nth '(a b c d e f g h i k) 3)
+;; => (a b d e g h k)

@@ -177,6 +177,8 @@ Example:
 X = [a,b,d,e,g,h,k]
 #+end_example
 
+/S1.16: [[file:elisp/1.16.el][Elisp]]/
+
 **** 1.17 (*) Split a list into two parts; the length of the first part is given.
 Do not use any predefined predicates.
 
@@ -1077,7 +1079,7 @@ Hints:
 | 1.13 | /done/ |        |        |        |        |            |        |        |
 | 1.14 | /done/ |        |        |        |        |            |        |        |
 | 1.15 | /done/ |        |        |        |        |            |        |        |
-| 1.16 |        |        |        |        |        |            |        |        |
+| 1.16 | /done/ |        |        |        |        |            |        |        |
 | 1.17 |        |        |        |        |        |            |        |        |
 | 1.18 |        |        |        |        |        |            |        |        |
 | 1.19 |        |        |        |        |        |            |        |        |
