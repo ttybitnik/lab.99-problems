@@ -189,6 +189,8 @@ L1 = [a,b,c]
 L2 = [d,e,f,g,h,i,k]
 #+end_example
 
+/S1.17: [[file:elisp/1.17.el][Elisp]]/
+
 **** 1.18 (**) Extract a slice from a list.
 Given two indices, I and K, the slice is the list containing the elements between the I'th and K'th element of the original list (both limits included). Start counting the elements with 1.
 
@@ -1080,7 +1082,7 @@ Hints:
 | 1.14 | /done/ |        |        |        |        |            |        |        |
 | 1.15 | /done/ |        |        |        |        |            |        |        |
 | 1.16 | /done/ |        |        |        |        |            |        |        |
-| 1.17 |        |        |        |        |        |            |        |        |
+| 1.17 | /done/ |        |        |        |        |            |        |        |
 | 1.18 |        |        |        |        |        |            |        |        |
 | 1.19 |        |        |        |        |        |            |        |        |
 | 1.20 |        |        |        |        |        |            |        |        |
