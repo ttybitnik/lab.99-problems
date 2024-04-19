@@ -154,6 +154,8 @@ Example:
 X = [a,a,b,b,c,c,c,c,d,d]
 #+end_example
 
+/S1.14: [[file:elisp/1.14.el][Elisp]]/
+
 **** 1.15 (**) Duplicate the elements of a list a given number of times.
 Example:
 #+begin_example
@@ -1071,7 +1073,7 @@ Hints:
 | 1.11 | /done/ |        |        |        |        |            |        |        |
 | 1.12 | /done/ |        |        |        |        |            |        |        |
 | 1.13 | /done/ |        |        |        |        |            |        |        |
-| 1.14 |        |        |        |        |        |            |        |        |
+| 1.14 | /done/ |        |        |        |        |            |        |        |
 | 1.15 |        |        |        |        |        |            |        |        |
 | 1.16 |        |        |        |        |        |            |        |        |
 | 1.17 |        |        |        |        |        |            |        |        |
