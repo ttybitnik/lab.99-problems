@@ -11,3 +11,15 @@
 
 (tty/drop-nth '(a b c d e f g h i k) 3)
 ;; => (a b d e g h k)
+
+(defun tty/drop-nth-dolist (list n)
+  (let ((drop)
+        (i 0))
+    (dolist (elt list (nreverse drop))
+      (setq i (+ i 1))
+      (if (= i n)
+          (setq i 0)
+        (push elt drop)))))
+
+(tty/drop-nth-dolist '(a b c d e f g h i k) 3)
+;; => (a b d e g h k)
