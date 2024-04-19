@@ -168,6 +168,8 @@ What are the results of the goal:
 ?- dupli(X,3,Y).
 #+end_example
 
+/S1.15: [[file:elisp/1.15.el][Elisp]]/
+
 **** 1.16 (**) Drop every N'th element from a list.
 Example:
 #+begin_example
@@ -1074,7 +1076,7 @@ Hints:
 | 1.12 | /done/ |        |        |        |        |            |        |        |
 | 1.13 | /done/ |        |        |        |        |            |        |        |
 | 1.14 | /done/ |        |        |        |        |            |        |        |
-| 1.15 |        |        |        |        |        |            |        |        |
+| 1.15 | /done/ |        |        |        |        |            |        |        |
 | 1.16 |        |        |        |        |        |            |        |        |
 | 1.17 |        |        |        |        |        |            |        |        |
 | 1.18 |        |        |        |        |        |            |        |        |
