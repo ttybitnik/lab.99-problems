@@ -7,3 +7,18 @@
 
 (tty/drop-kth '(a b c d) 2)
 ;; => (a c d)
+
+(defun tty/drop-kth-ptr (list k)
+  (let ((ptr (nthcdr (- k 2) list)))
+    (cond ((= k 1)
+	   (pop list)
+	   list)
+	  ((and (> k 1)
+		(< k (+ (length list) 1)))
+	   (setcdr ptr (cdr (cdr ptr)))
+	   list)
+	  (t
+	   nil))))
+
+(tty/drop-kth-ptr '(a b c d) 2)
+;; => (a c d)
