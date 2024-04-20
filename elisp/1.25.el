@@ -1,0 +1,16 @@
+(defun tty/random-permut (list)
+  (let (extracted)
+    (dotimes (_ (length list) extracted)
+      (let* ((r (+ (random (length list)) 1))
+	     (ptr (nthcdr (- r 2) list)))
+	(cond ((= r 1)
+	       (push (pop list) extracted))
+	      ((and (> r 0)
+		    (<= r (length list)))
+	       (push (car (cdr ptr)) extracted)
+	       (setcdr ptr (cdr (cdr ptr))))
+	      (t
+	       nil))))))
+
+(tty/random-permut '(a b c d e f))
+;; => (d b a c f e)
