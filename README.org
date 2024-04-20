@@ -214,6 +214,8 @@ X = [g,h,a,b,c,d,e,f]
 
 Hint: Use the predefined predicates length/2 and append/3, as well as the result of problem 1.17.
 
+/S1.19: [[file:elisp/1.19.el][Elisp]]/
+
 **** 1.20 (*) Remove the K'th element from a list.
 Example:
 #+begin_example
@@ -1086,7 +1088,7 @@ Hints:
 | 1.16 | /done/ |        |        |        |        |            |        |        |
 | 1.17 | /done/ |        |        |        |        |            |        |        |
 | 1.18 | /done/ |        |        |        |        |            |        |        |
-| 1.19 |        |        |        |        |        |            |        |        |
+| 1.19 | /done/ |        |        |        |        |            |        |        |
 | 1.20 |        |        |        |        |        |            |        |        |
 | 1.21 |        |        |        |        |        |            |        |        |
 | 1.22 |        |        |        |        |        |            |        |        |
