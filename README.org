@@ -233,6 +233,8 @@ Example:
 L = [a,alfa,b,c,d]
 #+end_example
 
+/S1.21: [[file:elisp/1.21.el][Elisp]]/
+
 **** 1.22 (*) Create a list containing all integers within a given range.
 Example:
 #+begin_example
@@ -1092,7 +1094,7 @@ Hints:
 | 1.18 | /done/ |        |        |        |        |            |        |        |
 | 1.19 | /done/ |        |        |        |        |            |        |        |
 | 1.20 | /done/ |        |        |        |        |            |        |        |
-| 1.21 |        |        |        |        |        |            |        |        |
+| 1.21 | /done/ |        |        |        |        |            |        |        |
 | 1.22 |        |        |        |        |        |            |        |        |
 | 1.23 |        |        |        |        |        |            |        |        |
 | 1.24 |        |        |        |        |        |            |        |        |
