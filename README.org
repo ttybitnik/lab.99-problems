@@ -268,6 +268,8 @@ L = [23,1,17,33,21,37]
 
 Hint: Combine the solutions of problems 1.22 and 1.23.
 
+/S1.24: [[file:elisp/1.24.el][Elisp]]/
+
 **** 1.25 (*) Generate a random permutation of the elements of a list.
 Example:
 #+begin_example
@@ -1101,7 +1103,7 @@ Hints:
 | 1.21 | /done/ |        |        |        |        |            |        |        |
 | 1.22 | /done/ |        |        |        |        |            |        |        |
 | 1.23 | /done/ |        |        |        |        |            |        |        |
-| 1.24 |        |        |        |        |        |            |        |        |
+| 1.24 | /done/ |        |        |        |        |            |        |        |
 | 1.25 |        |        |        |        |        |            |        |        |
 | 1.26 |        |        |        |        |        |            |        |        |
 | 1.27 |        |        |        |        |        |            |        |        |
