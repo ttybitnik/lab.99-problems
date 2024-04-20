@@ -255,6 +255,8 @@ L = [e,d,a]
 
 Hint: Use the built-in random number generator random/2 and the result of problem 1.20.
 
+/S1.23: [[file:elisp/1.23.el][Elisp]]/
+
 **** 1.24 (*) Lotto: Draw N different random numbers from the set 1..M.
 The selected numbers shall be put into a result list.
 
@@ -1098,7 +1100,7 @@ Hints:
 | 1.20 | /done/ |        |        |        |        |            |        |        |
 | 1.21 | /done/ |        |        |        |        |            |        |        |
 | 1.22 | /done/ |        |        |        |        |            |        |        |
-| 1.23 |        |        |        |        |        |            |        |        |
+| 1.23 | /done/ |        |        |        |        |            |        |        |
 | 1.24 |        |        |        |        |        |            |        |        |
 | 1.25 |        |        |        |        |        |            |        |        |
 | 1.26 |        |        |        |        |        |            |        |        |
