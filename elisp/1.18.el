@@ -6,3 +6,17 @@
 
 (tty/slice '(a b c d e f g h i k) 3 7)
 ;; => (c d e f g)
+
+(defun tty/slice-ptr (list s e)
+  (let* ((ptr-s (nthcdr (- s 1) list))
+         (ptr-e (nthcdr (- e s) ptr-s)))
+    (cond ((and (> s 0)
+		(> e s))
+           (setcdr ptr-e nil)
+           ptr-s)
+          ((or (< s 1)
+	       (< e 1))
+           nil))))
+
+(tty/slice-ptr '(a b c d e f g h i k) 3 7)
+;; => (c d e f g)
