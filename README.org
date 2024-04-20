@@ -242,6 +242,8 @@ Example:
 L = [4,5,6,7,8,9]
 #+end_example
 
+/S1.22: [[file:elisp/1.22.el][Elisp]]/
+
 **** 1.23 (**) Extract a given number of randomly selected elements from a list.
 The selected items shall be put into a result list.
 
@@ -1095,7 +1097,7 @@ Hints:
 | 1.19 | /done/ |        |        |        |        |            |        |        |
 | 1.20 | /done/ |        |        |        |        |            |        |        |
 | 1.21 | /done/ |        |        |        |        |            |        |        |
-| 1.22 |        |        |        |        |        |            |        |        |
+| 1.22 | /done/ |        |        |        |        |            |        |        |
 | 1.23 |        |        |        |        |        |            |        |        |
 | 1.24 |        |        |        |        |        |            |        |        |
 | 1.25 |        |        |        |        |        |            |        |        |
