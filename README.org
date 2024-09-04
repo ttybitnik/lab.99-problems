@@ -7,7 +7,7 @@ This repository contains my programming practice of the classic "/Ninety-Nine Pr
 
 Current run: *Elisp*.
 
-Future runs: Bash, C, Go, Python, JavaScript, Lua, Zig.
+Future runs: Bash, C, Go, Python, JavaScript, Lua, Scheme, Zig.
 
 #+begin_quote
 "The purpose of this problem collection is to give you the opportunity to practice your skills in logic programming. Your goal should be to find the most elegant solution of the given problems. Efficiency is important, but logical clarity is even more crucial. Some of the (easy) problems can be trivially solved using built-in predicates. However, in these cases, you learn more if you try to find your own solution.
