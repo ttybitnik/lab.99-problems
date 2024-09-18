@@ -17,20 +17,20 @@ The problems have different levels of difficulty. Those marked with a single ast
 — /Werner Hett/
 #+end_quote
 
-**** Table of contents                                               :toc_3:
-  - [[#99-problems][99 Problems]]
+*Table of contents*
+  - [[#99-problems][99 problems]]
     - [[#lists][Lists]]
     - [[#arithmetic][Arithmetic]]
-    - [[#logic-and-codes][Logic and Codes]]
-    - [[#binary-trees][Binary Trees]]
-    - [[#multiway-trees][Multiway Trees]]
+    - [[#logic-and-codes][Logic and codes]]
+    - [[#binary-trees][Binary trees]]
+    - [[#multiway-trees][Multiway trees]]
     - [[#graphs][Graphs]]
     - [[#miscellaneous][Miscellaneous]]
   - [[#solution-status][Solution status]]
   - [[#resources][Resources]]
   - [[#license][License]]
 
-** 99 Problems
+** 99 problems
 
 *** Lists
 
@@ -449,7 +449,7 @@ Note that a**b stands for the b'th power of a.
 **** 2.11 (*) Compare the two methods of calculating Euler's totient function.
 Use the solutions of problems 2.09 and 2.10 to compare the algorithms. Take the number of logical inferences as a measure for efficiency. Try to calculate phi(10090) as an example.
 
-*** Logic and Codes
+*** Logic and codes
 
 **** 3.01 (**) Truth tables for logical expressions.
 Define predicates and/2, or/2, nand/2, nor/2, xor/2, impl/2 and equ/2 (for logical equivalence) which succeed or fail according to the result of their respective operations; e.g. and(A,B) will succeed, if and only if both A and B succeed. Note that A and B can be Prolog goals (not only the constants true and fail).
@@ -520,7 +520,7 @@ We suppose a set of symbols with their frequencies, given as a list of fr(S,F) t
 % huffman(Fs,Hs) :- Hs is the Huffman code table for the frequency table Fs
 #+end_example
 
-*** Binary Trees
+*** Binary trees
 [[file:img/00.gif]]
 
 A binary tree is either empty or it is composed of a root element and two successors, which are binary trees themselves.
@@ -746,7 +746,7 @@ What happens if the same character appears in more than one node. Try for instan
 **** 4.18 (**) Dotstring representation of binary trees.
 We consider again binary trees with nodes that are identified by single lower-case letters, as in the example of problem 4.16. Such a tree can be represented by the preorder sequence of its nodes in which dots (.) are inserted where an empty subtree (nil) is encountered during the tree traversal. For example, the tree shown in problem 4.16 is represented as 'abd..e..c.fg...'. First, try to establish a syntax (BNF or syntax diagrams) and then write a predicate tree_dotstring/2 which does the conversion in both directions. Use difference lists.
 
-*** Multiway Trees
+*** Multiway trees
 [[file:img/05.gif]]
 
 A multiway tree is composed of a root element and a (possibly empty) set of successors which are multiway trees themselves. A multiway tree is never empty. The set of successor trees is sometimes called a forest.
@@ -1078,7 +1078,7 @@ Hints:
 
 3) For efficiency reasons it is important, at least for larger puzzles, to sort the words and the sites in a particular order. For this part of the problem, the solution of 1.28 may be very helpful.
 
-** Solution Status
+** Solution status
 
 | *P.* | Elisp  | Bash   | C      | Go     | Python | JavaScript | Lua    | Scheme | Zig    |
 |------+--------+--------+--------+--------+--------+------------+--------+--------+--------|
@@ -1185,7 +1185,7 @@ Hints:
 
 ** License
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0), *unless an exception is made explicit in context*. The GPL is a copyleft license that guarantees the freedom to use, modify, and distribute software. It ensures that users have control over the software they use and promotes collaboration and sharing of knowledge. By requiring that derivative works of GPL-licensed software also be licensed under the GPL, the license ensures that the freedoms it provides are extended to future generations of users and developers.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0), *unless an exception is made explicit in context*. The GPL is a copyleft license that guarantees freedom to use, modify, and distribute software. It ensures that users have control over the software they use and promotes collaboration and sharing of knowledge. By requiring that derivative works also be licensed under the GPL, it ensures that the freedoms it provides are extended to future generations of users and developers.
 
 See the =COPYING= file for more information.
 
